@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
 mongoose.Promise = global.Promise;
-mongoose.connect('mongodb://karolina1233:Szosa951@ds119810.mlab.com19810/database-1', {
+mongoose.connect('mongodb://karolina1233:Szosa951@ds217092.mlab.com17092/database-1', {
     useMongoClient: true
 });
 process.on('unhandledRejection', (reason, p) => { throw reason });
